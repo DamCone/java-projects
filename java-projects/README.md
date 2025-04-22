@@ -7,10 +7,10 @@ The projects range from beginner to advanced level and include console-based app
 
 ## 📁 Projects Overview
 
-### 🔹 Burger Menu App (Swing)
-A GUI application that simulates a burger restaurant menu. It allows users to choose ingredients, calculate total cost, display order summary, and save it to a `.txt` file.
+### 🔹 ValenBici Map App (API + JavaFX)
+Final-year project. Interactive map of Valencia’s ValenBici bike stations, displaying real-time data from their public API.
 
-**Technologies:** Java, Swing, Event Handling, Arrays, File I/O  
+**Technologies:** Java, JavaScript, XML, REST API, JSON  
 **Level:** Intermediate
 
 ---
@@ -31,18 +31,10 @@ Functional calculator with a graphical interface. Supports basic operations: add
 
 ---
 
-### 🔹 ValenBici Map App (API + JavaFX)
-Final-year project. Interactive map of Valencia’s ValenBici bike stations, displaying real-time data from their public API.
+### 🔹 Burger Menu App (Swing)
+A GUI application that simulates a burger restaurant menu. It allows users to choose ingredients, calculate total cost, display order summary, and save it to a `.txt` file.
 
-**Technologies:** Java, JavaScript, XML, REST API, JSON  
-**Level:** Advanced
-
----
-
-### 🔹 SQL Practice Pack (MySQL)
-A collection of practical SQL exercises completed in MySQL Workbench. Includes complex queries, triggers, stored procedures, and relational schema design.
-
-**Technologies:** SQL, MySQL, Workbench  
+**Technologies:** Java, Swing, Event Handling, Arrays, File I/O  
 **Level:** Intermediate
 
 ---
@@ -53,7 +45,6 @@ A collection of practical SQL exercises completed in MySQL Workbench. Includes c
 - Swing / JavaFX
 - File I/O (.txt)
 - Git & GitHub
-- MySQL / PostgreSQL
 - Docker (for environments)
 - Linux CLI
 - JUnit (unit testing)
@@ -65,14 +56,13 @@ A collection of practical SQL exercises completed in MySQL Workbench. Includes c
 1. Clone this repository
 2. Open any project folder in your IDE (IntelliJ, Eclipse, VSCode with Java plugin)
 3. Locate and run the `Main` class (or relevant entry point)
-4. Ensure any required resources (e.g., `.txt` files) are present in the root or `/resources` folder
 
 ---
 
 ## 👨‍💻 About Me
 
 **Damián Conejos Monzó**  
-📧 [Your email here]  
+📧 damiconejos@gmail.com  
 💼 [LinkedIn](https://www.linkedin.com/in/dami%C3%A1n-conejos-monzo-426250238/)  
 📁 [GitHub](https://github.com/DamCone)
 
