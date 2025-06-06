@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="341.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="minicalculadora.FXML_MiniCalculadoraController">
+    <stylesheets>
+        <URL value="@fxml_minicalculadora.css" />
+    </stylesheets>
+   <children>
+      <TextField fx:id="v1" alignment="CENTER" layoutX="52.0" layoutY="36.0" prefHeight="39.0" prefWidth="101.0" promptText="Valor 1" />
+      <TextField fx:id="v2" alignment="CENTER" layoutX="187.0" layoutY="36.0" prefHeight="39.0" prefWidth="102.0" promptText="Valor 2" />
+      <Button fx:id="idSuma" layoutX="52.0" layoutY="115.0" mnemonicParsing="false" onAction="#btnSuma" prefHeight="39.0" prefWidth="102.0" text="+" />
+      <Button fx:id="idResta" layoutX="187.0" layoutY="115.0" mnemonicParsing="false" onAction="#btnResta" prefHeight="39.0" prefWidth="102.0" text="-" />
+      <Button fx:id="idMult" layoutX="52.0" layoutY="171.0" mnemonicParsing="false" onAction="#btnMult" prefHeight="39.0" prefWidth="102.0" text="*" />
+      <Button fx:id="idDiv" layoutX="187.0" layoutY="171.0" mnemonicParsing="false" onAction="#btnDiv" prefHeight="39.0" prefWidth="102.0" text="/" />
+      <TextField fx:id="idResultado" alignment="CENTER" layoutX="96.0" layoutY="250.0" prefHeight="39.0" prefWidth="150.0" text="RESULTADO" />
+      <Button fx:id="idClear" layoutX="119.0" layoutY="322.0" mnemonicParsing="false" onAction="#btnClear" prefHeight="39.0" prefWidth="102.0" text="C" />
+   </children>
+</AnchorPane>

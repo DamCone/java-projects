@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="186.0" prefWidth="287.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="factorial.FXML_FactorialController">
+    <stylesheets>
+        <URL value="@fxml_factorial.css" />
+    </stylesheets>
+   <children>
+      <TextField fx:id="valor" alignment="CENTER" layoutX="19.0" layoutY="25.0" promptText="Valor" />
+      <Button layoutX="89.0" layoutY="72.0" mnemonicParsing="false" onAction="#calcularFactorial" text="Calculate" />
+      <Label fx:id="lab" layoutX="19.0" layoutY="138.0" text="Factorial: " wrapText="true" />
+   </children>
+</AnchorPane>

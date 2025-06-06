@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="261.0" prefWidth="252.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller=".EjercicioRangosFXMLController">
+    <stylesheets>
+        <URL value="@ejerciciorangosfxml.css" />
+    </stylesheets>
+   <children>
+      <Slider fx:id="sliderR" layoutX="43.0" layoutY="30.0" majorTickUnit="35.0" max="255.0" onMouseDragReleased="#redS" orientation="VERTICAL" showTickLabels="true" showTickMarks="true" />
+      <Label layoutX="26.0" layoutY="139.0" text="R" textFill="RED">
+         <font>
+            <Font name="Berlin Sans FB" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="95.0" layoutY="139.0" text="G" textFill="LIME">
+         <font>
+            <Font name="Berlin Sans FB" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="169.0" layoutY="139.0" text="B" textFill="BLUE">
+         <font>
+            <Font name="Berlin Sans FB" size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="mix" layoutX="100.0" layoutY="190.0" text="MIX">
+         <font>
+            <Font name="Bernard MT Condensed" size="38.0" />
+         </font>
+      </Label>
+      <Slider fx:id="sliderG" layoutX="115.0" layoutY="30.0" majorTickUnit="35.0" max="255.0" onMouseDragReleased="#greenS" orientation="VERTICAL" showTickLabels="true" showTickMarks="true" />
+      <Slider fx:id="sliderB" layoutX="186.0" layoutY="30.0" majorTickUnit="35.0" max="255.0" onMouseDragReleased="#blueS" orientation="VERTICAL" showTickLabels="true" showTickMarks="true" />
+   </children>
+</AnchorPane>

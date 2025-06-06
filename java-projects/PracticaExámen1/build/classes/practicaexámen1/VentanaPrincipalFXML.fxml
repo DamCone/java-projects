@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="333.0" prefWidth="307.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="practicaexamen1.VentanaPrincipalFXMLController">
+    <stylesheets>
+        <URL value="@ventanaprincipalfxml.css" />
+    </stylesheets>
+   <children>
+      <Label layoutX="63.0" layoutY="56.0" text="ID" />
+      <TextField fx:id="id" layoutX="104.0" layoutY="52.0" />
+      <Label layoutX="42.0" layoutY="89.0" text="Nombre" />
+      <TextField fx:id="nombre" layoutX="105.0" layoutY="85.0" />
+      <Label layoutX="48.0" layoutY="123.0" text="Precio" />
+      <TextField fx:id="precio" layoutX="105.0" layoutY="119.0" />
+      <Label layoutX="48.0" layoutY="156.0" text="Código" />
+      <TextField fx:id="codigo" layoutX="105.0" layoutY="152.0" />
+      <Label layoutX="51.0" layoutY="190.0" text="Grupo" />
+      <TextField fx:id="grupo" layoutX="105.0" layoutY="186.0" />
+      <Button fx:id="bt_Primero" layoutX="40.0" layoutY="242.0" mnemonicParsing="false" text="&lt;&lt;" />
+      <Button fx:id="bt_Anterior" layoutX="104.0" layoutY="242.0" mnemonicParsing="false" text="&lt;" />
+      <Button fx:id="bt_Siguiente" layoutX="170.0" layoutY="242.0" mnemonicParsing="false" text="&gt;" />
+      <Button fx:id="bt_Ultimo" layoutX="235.0" layoutY="242.0" mnemonicParsing="false" text="&gt;&gt;" />
+      <Button fx:id="insertar" layoutX="28.0" layoutY="293.0" mnemonicParsing="false" text="Insertar" />
+      <Label layoutX="119.0" layoutY="15.0" text="Articulos">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="insertar1" layoutX="105.0" layoutY="293.0" mnemonicParsing="false" text="Buscar ID" />
+      <Button fx:id="insertar11" layoutX="189.0" layoutY="293.0" mnemonicParsing="false" text="Modificar" />
+   </children>
+</AnchorPane>

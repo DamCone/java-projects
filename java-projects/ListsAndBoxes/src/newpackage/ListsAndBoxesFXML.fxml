@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="265.0" prefWidth="408.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="newpackage.ListsAndBoxesFXMLController">
+    <stylesheets>
+        <URL value="@listsandboxesfxml.css" />
+    </stylesheets>
+   <children>
+      <ComboBox fx:id="comboBox1" layoutX="29.0" layoutY="63.0" onAction="#setOnAction1" prefWidth="150.0" />
+      <ComboBox fx:id="comboBox2" layoutX="29.0" layoutY="116.0" onAction="#setOnAction2" prefWidth="150.0" />
+      <ListView fx:id="list" layoutX="229.0" layoutY="42.0" prefHeight="200.0" prefWidth="150.0" />
+      <Label layoutX="29.0" layoutY="42.0" text="ComboBox 1" />
+      <Label layoutX="29.0" layoutY="98.0" text="ComboBox 2" />
+      <TextField fx:id="add" layoutX="29.0" layoutY="175.0" />
+      <Button layoutX="50.0" layoutY="209.0" mnemonicParsing="false" onAction="#addElement" text="Add" />
+      <Label layoutX="229.0" layoutY="24.0" text="My List" />
+      <Label layoutX="29.0" layoutY="158.0" text="Elements editor:" />
+      <Button layoutX="105.0" layoutY="209.0" mnemonicParsing="false" onAction="#removeElement" text="Remove" />
+   </children>
+</AnchorPane>

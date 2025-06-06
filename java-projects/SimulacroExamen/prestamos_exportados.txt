@@ -1,0 +1,10 @@
+ID_Prestamo;ID_Libro;Titulo_Libro;Autor_Libro;Nombre_Usuario;Fecha_Prestamo;Duracion_Dias;Devuelto
+14;14;Don Quijote de la Mancha;Miguel de Cervantes;Pedro MartÃ­nez;2024-02-18;7;NO
+16;16;La sombra del viento;Carlos Ruiz ZafÃ³n;Javier NÃºÃ±ez;2024-03-15;15;SI
+18;18;Fahrenheit 451;Ray Bradbury;RaÃºl SÃ¡nchez;2024-04-01;25;SI
+19;19;CrÃ³nica de una muerte anunciada;Gabriel GarcÃ­a MÃ¡rquez;Elena Castillo;2024-04-10;14;NO
+20;20;Los juegos del hambre;Suzanne Collins;Miguel Delgado;2024-04-20;10;SI
+21;16;La sombra del viento;Carlos Ruiz ZafÃ³n;Javier NÃºÃ±ez;2024-03-15;15;SI
+22;11;Cien aÃ±os de soledad;Gabriel GarcÃ­a MÃ¡rquez;Carlos Ruiz;2024-01-15;7;NO
+25;23;Cien aÃ±os de soledad;Gabriel GarcÃ­a MÃ¡rquez;Carlos Ruiz;2024-01-15;7;NO
+27;26;Cien aÃ±os de soledad;Gabriel GarcÃ­a MÃ¡rquez;Carlos Ruiz;2024-01-15;7;NO

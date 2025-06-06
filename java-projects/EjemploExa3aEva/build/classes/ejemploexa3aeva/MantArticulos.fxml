@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="300.0" spacing="20.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ejemploexa3aeva.MantArticulosController">
+   <children>
+      <Label text="Mantenimiento de Artículos">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnMantGeneral" mnemonicParsing="false" onAction="#abrirMantArtGene" prefHeight="30.0" prefWidth="200.0" text="Mantenimiento General de Artículos" />
+      <!-- Aquí podrías añadir botones para "Insertar Artículo", "Borrar Artículo", "Modificar Artículo"
+           si quisieras que fueran opciones directas que abren ventanas más específicas,
+           pero según el enunciado, el "Mantenimiento General" es el que hace todo. -->
+      <Button fx:id="btnVolver" mnemonicParsing="false" onAction="#volverAMenuPrincipal" text="Volver" />
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ejemploexa3aeva.VentanaPrincipalController">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="Archivo">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#salirAplicacion" text="Salir" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Mantenimientos">
+            <items>
+              <MenuItem fx:id="menuItemArticulos" mnemonicParsing="false" onAction="#abrirMantArticulos" text="Artículos" />
+              <MenuItem mnemonicParsing="false" text="Clientes (No implementado)" />
+              <MenuItem mnemonicParsing="false" text="Proveedores (No implementado)" />
+              <MenuItem mnemonicParsing="false" text="Grupos (No implementado)" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Ayuda">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Acerca de (No implementado)" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+   <center>
+      <Label text="Bienvenido al Sistema de Gestión de Empresa" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets top="20.0" />
+         </BorderPane.margin>
+      </Label>
+   </center>
+</BorderPane>
